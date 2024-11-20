@@ -20,8 +20,8 @@ public class UserService {
 
     // 회원가입 메서드
     @Transactional
-    public User registerUser(User user) {
-        return userRepository.save(user);
+    public void registerUser(User user) {
+        userRepository.save(user);
     }
 
     // 로그인 메서드
