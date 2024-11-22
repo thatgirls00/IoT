@@ -1,5 +1,7 @@
-package com.example.smart;
+package com.example.smart.controller;
 
+import com.example.smart.service.UserService;
+import com.example.smart.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

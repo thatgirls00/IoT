@@ -1,4 +1,4 @@
-package com.example.smart;
+package com.example.smart.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

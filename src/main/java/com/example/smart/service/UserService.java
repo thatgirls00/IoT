@@ -1,5 +1,7 @@
-package com.example.smart;
+package com.example.smart.service;
 
+import com.example.smart.domain.User;
+import com.example.smart.repository.UserRepository;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
