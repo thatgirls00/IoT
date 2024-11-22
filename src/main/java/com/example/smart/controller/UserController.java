@@ -12,9 +12,12 @@ import java.util.Map;
 @RestController
 @RequestMapping("/user")
 public class UserController {
+    private final UserService userService;
 
     @Autowired
-    private UserService userService;
+    public UserController(UserService userService) {
+        this.userService = userService;
+    }
 
     // ID 중복 확인 요청 처리
     @GetMapping("/check-id/{id}")
@@ -25,11 +28,11 @@ public class UserController {
             response.put("status", "error");
             response.put("message", "이미 존재하는 ID입니다");
             return ResponseEntity.status(409).body(response);
-        } else {
-            response.put("status", "success");
-            response.put("message", "사용 가능한 ID입니다");
-            return ResponseEntity.ok(response);
         }
+
+        response.put("status", "success");
+        response.put("message", "사용 가능한 ID입니다");
+        return ResponseEntity.ok(response);
     }
 
     // 회원가입 요청 처리
@@ -53,17 +56,17 @@ public class UserController {
     @PostMapping("/login")
     public ResponseEntity<Map<String, String>> loginUser(@RequestBody User loginRequest) {
         Map<String, String> response = new HashMap<>();
-
         boolean loginSuccess = userService.loginUser(loginRequest.getId(), loginRequest.getPassword());
-        if (loginSuccess) {
-            response.put("status", "success");
-            response.put("message", "로그인 성공");
-            return ResponseEntity.ok(response);
-        } else {
+
+        if (!loginSuccess) {
             response.put("status", "error");
             response.put("message", "로그인 실패");
             return ResponseEntity.status(401).body(response);
         }
+
+        response.put("status", "success");
+        response.put("message", "로그인 성공");
+        return ResponseEntity.ok(response);
     }
 
     // 사용자 정보 부분 업데이트
