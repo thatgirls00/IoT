@@ -1,3 +1,7 @@
+# **Architecture**
+
+![SC project 3-2 (8).png](https://prod-files-secure.s3.us-west-2.amazonaws.com/3bdde096-68af-4a36-82f7-3fa45a99f4b9/f0a5c967-d95f-4de6-8b4f-b112ab0579d7/SC_project_3-2_(8).png)
+
 ## Tech Stack
 <div>
     <table>
