@@ -3,7 +3,7 @@
 
 
 <div align="center">
-  <strong>2024 융합소프트웨어프로젝트</strong>
+  <strong>2024-2 융합소프트웨어프로젝트</strong>
   <br><br>
   <em>스마트 홈 케어 시스템, PiNest(Raspberry Pi + Nest)</em>
   <br><br>
