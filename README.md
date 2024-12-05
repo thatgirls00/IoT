@@ -29,17 +29,19 @@
 <img width="220" height="500" src="https://github.com/user-attachments/assets/c2482cb1-6ac6-4453-a572-9d4eff603032">
 <img width="220" height="500" src="https://github.com/user-attachments/assets/92506f78-c20f-42a9-a297-4220acc25c53">
 
-- 목표:
-    - 사용자가 입력한 ID가 데이터베이스에 이미 존재하는지 확인하고, 중복된 ID로 회원가입을 진행하지 못하도록 합니다.
-- 과정:
-    1. 클라이언트에서 사용자가 입력한 ID를 서버로 전달한다.
-    2. 서버는 데이터베이스의 account 테이블에서 해당 ID가 이미 존재하는지 확인한다.
-    3. ID가 데이터베이스에 존재하지 않으면, “사용 가능한 ID입니다”라는 메시지를 반환하고 회원가입을 진행할 수 있도록 허용한다.
-    4. ID가 데이터베이스에 이미 존재할 경우, 409 Conflict 오류와 함께 “이미 존재하는 ID입니다”라는 메시지를 반환하여 중복된 ID로 회원가입을 진행하지 못하도록 한다.
-
+사용자가 입력한 ID가 데이터베이스에 이미 존재하는지 확인하고, 중복된 ID로 회원가입을 진행하지 못하도록 합니다.
+SHA-256 해시 알고리즘을 통해 비밀번호 암호화 기능 구현 추가하였습니다.
 
 <br>
 
+### 외부 API 활용하여 GPS에 따라 현재 위치 온습도 확인 
+<img width="220" height="500" src="https://github.com/user-attachments/assets/d0bc8cd7-eaed-4898-8fb3-4a375eee57dc">
+<img width="220" height="500" src="https://github.com/user-attachments/assets/413ad8ea-7dce-4dea-bac4-f3bda2189b77">
+<img width="220" height="500" src="https://github.com/user-attachments/assets/6c64a1cc-346e-4e1d-8f7f-1a9e7ef18ded">
+
+OpenWeather Open API를 활용하여 GPS에 따른 현재 위치에 대한 온습도를 제공합니다.
+
+<br>
 
 ## Roles in Charge
 
