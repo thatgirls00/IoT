@@ -29,8 +29,8 @@
 <img width="220" height="500" src="https://github.com/user-attachments/assets/c2482cb1-6ac6-4453-a572-9d4eff603032">
 <img width="220" height="500" src="https://github.com/user-attachments/assets/92506f78-c20f-42a9-a297-4220acc25c53">
 
-사용자가 입력한 ID가 데이터베이스에 이미 존재하는지 확인하고, 중복된 ID로 회원가입을 진행하지 못하도록 합니다.
-SHA-256 해시 알고리즘을 통해 비밀번호 암호화 기능 구현 추가하였습니다.
+- 사용자가 입력한 ID가 데이터베이스에 이미 존재하는지 확인하고, 중복된 ID로 회원가입을 진행하지 못하도록 합니다.
+- SHA-256 해시 알고리즘을 통해 비밀번호 암호화 기능 구현 추가하였습니다.
 
 <br>
 
