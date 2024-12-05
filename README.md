@@ -1,5 +1,5 @@
 <h1 align="center"><strong> PiNest - BackEnd </strong></h1>
-<h1<img src="https://github.com/SC-PiNest/FrontEnd/blob/master/app/src/main/res/drawable/logo.png" width="300"/></h1>
+<h1 align="center"><img src="https://github.com/SC-PiNest/FrontEnd/blob/master/app/src/main/res/drawable/logo.png" width="300"/></h1>
 
 
 <div align="center">
