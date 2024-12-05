@@ -17,7 +17,7 @@
 
 <br>
 
-## Main Function
+## Main Function - BackEnd
 
 ### 로그인 CRUD 기능
 <img width="220" height="500" src="https://github.com/user-attachments/assets/128a0b2a-ebc4-4836-a44f-ded22c72b65d">
