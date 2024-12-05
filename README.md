@@ -34,6 +34,8 @@ SHA-256 해시 알고리즘을 통해 비밀번호 암호화 기능 구현 추�
 
 <br>
 
+<!--
+
 ### 외부 API 활용하여 GPS에 따라 현재 위치 온습도 확인 
 <img width="220" height="500" src="https://github.com/user-attachments/assets/d0bc8cd7-eaed-4898-8fb3-4a375eee57dc">
 <img width="220" height="500" src="https://github.com/user-attachments/assets/413ad8ea-7dce-4dea-bac4-f3bda2189b77">
@@ -54,6 +56,21 @@ Raspberry Pi에 실시간으로 저장되는 온습도 데이터를 불러와 �
 ### 원격 CCTV 확인 기능
 ![Screen_Recording_20241126_164621_PiNest_1](https://github.com/user-attachments/assets/ce8f288b-f701-40c9-afb2-eb185ef72f4f)
 
+Raspberry Pi를 통해 원격으로 실내의 CCTV 스트리밍을 실시간으로 확인 기능을 구현합니다
+
+<br>
+
+### 원격 전등 On/Off 기능
+<img width="300" height="600" src="https://github.com/user-attachments/assets/c07abbef-a688-4b0b-8ef8-bb858ce899f5">
+<img width="300" height="600" src="https://github.com/user-attachments/assets/33e8604d-d952-4e9f-96f6-1ffb9ec29021">
+
+Raspberry Pi를 통해 원격으로 서보 모터를 제어하여 전등 스위치를 on/off 하는 기능을 구현합니다
+
+<br>
+
+### 감시모드 및 On/Off 기능
+
+-->
 
 ## Roles in Charge
 
