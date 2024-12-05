@@ -43,6 +43,18 @@ OpenWeather Open API를 활용하여 GPS에 따른 현재 위치에 대한 온�
 
 <br>
 
+### 센서를 통한 실내 온습도 확인 및 추천 기능
+<img width="300" height="600" src="https://github.com/user-attachments/assets/747108cb-df38-4a98-ad2d-7fe41f77edb1">
+<img width="300" height="600" src="https://github.com/user-attachments/assets/a94eefae-7670-4874-a88d-55c6e4567c53">
+
+Raspberry Pi에 실시간으로 저장되는 온습도 데이터를 불러와 현재 온습도에 맞는 추천 메시지를 출력합니다
+
+<br>
+
+### 원격 CCTV 확인 기능
+![Screen_Recording_20241126_164621_PiNest_1](https://github.com/user-attachments/assets/ce8f288b-f701-40c9-afb2-eb185ef72f4f)
+
+
 ## Roles in Charge
 
 <div sytle="overflow:hidden;">
