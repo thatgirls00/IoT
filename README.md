@@ -1,4 +1,6 @@
 <h1 align="center"><strong> PiNest - BackEnd </strong></h1>
+<img width="300" height="600" src="https://github.com/user-attachments/assets/0d4155ca-1ab8-4b2d-ba70-2802fcde3886">
+
 
 <div align="center">
   <strong>2024 융합소프트웨어프로젝트</strong>
