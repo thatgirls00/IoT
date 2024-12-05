@@ -19,10 +19,19 @@
 
 ## Main Function
 
-### 로그인 CRUD 기능 
+### 로그인 CRUD 기능
+<img width="220" height="500" src="https://github.com/user-attachments/assets/128a0b2a-ebc4-4836-a44f-ded22c72b65d">
 <img width="220" height="500" src="https://github.com/user-attachments/assets/f4686467-9267-417d-894e-35572890d897">
 <img width="220" height="500" src="https://github.com/user-attachments/assets/76d17c5f-4ccb-4d34-865d-ceaac9dc0d87">
-<img width="220" height="500" src="https://github.com/user-attachments/assets/128a0b2a-ebc4-4836-a44f-ded22c72b65d">
+
+### ID 중복 확인 기능
+<img width="220" height="500" src="https://github.com/user-attachments/assets/b9c21de6-12c8-456b-b06d-aebddce508c1">
+<img width="220" height="500" src="https://github.com/user-attachments/assets/c2482cb1-6ac6-4453-a572-9d4eff603032">
+<img width="220" height="500" src="https://github.com/user-attachments/assets/92506f78-c20f-42a9-a297-4220acc25c53">
+
+
+<br>
+
 
 ## Roles in Charge
 
